@@ -1,0 +1,48 @@
+
+1. Functionalities:
+
+Add Contact:
+Users can add a new contact by providing Name, Email, Phone Number, and Address.
+The program checks if the phone number already exists in the contact list. If it does, the user is notified.
+
+View Contacts:
+Users can view all saved contacts. Contacts are displayed in an organized format, including Name, Email, Phone Number, and Address.
+
+Remove Contact:
+Users can delete a contact by specifying a phone number. The contact associated with that phone number will be removed from the file.
+
+Update Contact:
+Users can update the details of a contact by searching for the phone number and modifying its Name, Email, Phone Number, or Address.
+
+Search Contact:
+Users can search for a specific contact by Name, Email, or Phone Number. The search term is matched against existing contacts.
+
+File Handling:
+All contacts are stored in a text file (contacts.txt). The file is updated whenever a new contact is added.
+The program loads the saved contacts from the file when it starts.
+
+
+2. File Structure:
+
+/Contact-Management
+    /contacts.py
+    /main.py           
+    /contacts.txt  
+
+
+3.Design Map:
+
+a.Start (Run Program)
+b.Show Main Menu
+c.loop
+d.1.Add Contact
+e.2.View Contacts
+f.3.Remove Contact
+g.4.Update Contact
+h.5.Search Contact
+k.6.Exit
+
+j.Call Relevant Function
+k.Back to Main Menu 
+
+
